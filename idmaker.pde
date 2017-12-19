@@ -21,11 +21,13 @@ color randomColour() {
   switch(choice)
   {
     case 0:
-      colour = color(255, 0, 0);
+      colour = RED;
+      break;
     case 1:
-      colour = color(0, 255, 0);
+      colour = GREEN;
+      break;
     case 2:
-      colour = color(255, 255, 0);
+      colour = YELLOW;
   }
   
   return colour;
